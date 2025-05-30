@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: one
 spec:
-  replicas: 5
+  replicas: 15
   selector:
     matchLabels:
       app: swiggy
